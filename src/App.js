@@ -41,7 +41,7 @@ function App() {
       <Box sx={{ transform: "skewY(3deg)",height: "fit-content",border: "1px solid #04648A",display: "flex",borderRadius: "5px",alignItems: "center",flexDirection: {xs: "column",md: "row"},gap: 5 }} my={8} mx={{xs: 3,md:20,lg:30}} px={{xs: 2,md: 9}} py={5}>
         <Heading title={"About Me"} description={"My Work"} />
         <Box sx={{flex:0.7}}>
-          <Typography>I am Namagiri Lakshmi M V L , A Passionate Full Stack Developer getting trained currently at Guvi Organzation.On my free time I develop apps for my ideas on mind and I like to play Veena. I have a lot of mentors which I learnt from because they are the one that made me who I am today. I usually do a lot of things at my free time which makes me in love with myself.</Typography>
+          <Typography>I am Namagiri Lakshmi M V L , A Passionate Full Stack Developer getting trained currently at Guvi Organization.On my free time I develop apps for my ideas on mind and I like to play Veena. I have a lot of mentors which I learnt from because they are the one that made me who I am today. I usually do a lot of things at my free time which makes me in love with myself.</Typography>
         </Box>
       </Box>
     </Box>
@@ -97,8 +97,6 @@ function App() {
     <Box p={{xs: 1,md:5}} m={{xs: 1,md: 3}} mb={7} id='projects'>
       <Box sx={{display: "flex",alignItems:'center',flexDirection:"column"}}>
         <Typography className='heading_middle' sx={{margin: "auto",fontWeight: 600}} variant='h4' pt={5}>My Projects</Typography>
-        <Typography variant='h7' sx={{fontSize:"23px"}}>User : guest@gmail.com / 123456</Typography>
-        <Typography variant='h7' pb={5} sx={{fontSize:"23px"}}>Admin : admin@gmail.com / Admin123</Typography>
         <hr style={{height: "80px",border: "1px solid grey",borderRadius: "3px",margin: "0 0 30px 0"}} />
         <Box sx={{display: "flex",flexWrap: "wrap",gap: 10,justifyContent:"center"}}>
         {Object.values(project).map(ele =>
