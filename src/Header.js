@@ -18,7 +18,7 @@ const Header = () => {
       <Typography variant='h3' sx={{fontWeight: "bolder",fontSize: {xs: "30px",md: "50px"}}}>A Passionate Full Stack Developer</Typography>
       <Box sx={{display: "flex",justifyContent: "center",gap: 5}} m={3}>
         <a href='#projects' style={{textDecoration:"none"}} rel="noopener noreferrer"><Button variant='contained' className='btn'>Projects</Button></a>
-        <a href='https://drive.google.com/file/d/1lI4rHkWzCAcR2y12RnmZvXIJaHkvec_o/view' target='__blank' rel="noopener noreferrer" style={{textDecoration: "none"}}><Button variant='contained' className='btn'>Resume</Button></a>
+        <a href='https://drive.google.com/file/d/12IFVxGxxmFvBdSRusPEMk-r0deaj8eVB/view?usp=drive_link' target='__blank' rel="noopener noreferrer" style={{textDecoration: "none"}}><Button variant='contained' className='btn'>Resume</Button></a>
       </Box>
       <Box sx={{display: "flex",justifyContent: "center",gap: "10px",cursor: "pointer"}}>
           <a href='https://github.com/NamagiriLakshmiMVL' target='__blank' rel="noopener noreferrer" style={{textDecoration: "none",color:"white"}}><GitHubIcon fontSize='large'/></a>
