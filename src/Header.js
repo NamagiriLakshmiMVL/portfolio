@@ -14,7 +14,7 @@ const Header = () => {
     <Bubble className='image_rotate' style={{width: "inherit"}} />
     </Box>
     <Box sx={{color: "#fff",textAlign:"center",position: "absolute",top: "50%",left: "50%",transform:'translate(-50%,-50%)'}} px={{xs: 2,md:5}} py={3}>
-      <Typography variant='h5' sx={{fontWeight: 700,fontSize: {xs: "20px",md: "30px"}}}>Hi 👋, I am Namagiri Lakshmi M V L</Typography>
+      <Typography variant='h5' sx={{fontWeight: 700,fontSize: {xs: "20px",md: "30px"}}}>I am Namagiri Lakshmi M V L</Typography>
       <Typography variant='h3' sx={{fontWeight: "bolder",fontSize: {xs: "30px",md: "50px"}}}>A Passionate Full Stack Developer</Typography>
       <Box sx={{display: "flex",justifyContent: "center",gap: 5}} m={3}>
         <a href='#projects' style={{textDecoration:"none"}} rel="noopener noreferrer"><Button variant='contained' className='btn'>Projects</Button></a>

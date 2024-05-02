@@ -118,8 +118,8 @@ function App() {
           <Box sx={{ flex: 0.7 }}>
             <Typography>
               I am Namagiri Lakshmi M V L , A Passionate Full Stack Developer
-              getting trained currently at Guvi Organization.On my free time I
-              develop apps for my ideas on mind and I like to play Veena. I have
+              completed training at Guvi Organization.On my free time I
+              develop apps for my ideas on mind and I like to play Musical Instrument - Veena. I have
               a lot of mentors which I learnt from because they are the one that
               made me who I am today. I usually do a lot of things at my free
               time which makes me in love with myself.
